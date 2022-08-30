@@ -1,0 +1,306 @@
+Info: Nothing to build for Herramientas - Funciones
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 1
+Info: Nothing to build for Ejer 3 - 2
+Info: Nothing to build for Ejer 3 - 3
+Info: Nothing to build for Ejer 3 - 4
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Herramientas - Funciones
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+13:47:43 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:17:22: warning: implicit declaration of function 'scanValInt' [-Wimplicit-function-declaration]
+   17 |         int numero = scanValInt("Ingrese un numero entero (5 - 10): ", 5, 10);
+      |                      ^~~~~~~~~~
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\Ejer 3 - 5.o: in function `main':
+C:\Users\Matt\proyectos - C UTN\Ejer 3 - 5\Debug/../src/Ejer 3 - 5.c:17: undefined reference to `scanValInt'
+collect2.exe: error: ld returned 1 exit status
+13:47:47 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+In file included from ..\src\Ejer 3 - 5.c:13:
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h: In function 'scanValInt':
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:19:15: error: assignment to expression with array type
+   19 |         error = "%s", mensaje;
+      |               ^
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:19:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   19 |         error = "%s", mensaje;
+      |                     ^
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:19:9: warning: statement with no effect [-Wunused-value]
+   19 |         error = "%s", mensaje;
+      |         ^~~~~
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:18:14: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+   18 |         char error[] = "ERROR - ";
+      |              ^~~~~
+13:47:49 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+In file included from ..\src\Ejer 3 - 5.c:13:
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h: In function 'scanValInt':
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:19:15: error: assignment to expression with array type
+   19 |         error = "%s", mensaje;
+      |               ^
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:19:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   19 |         error = "%s", mensaje;
+      |                     ^
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:19:9: warning: statement with no effect [-Wunused-value]
+   19 |         error = "%s", mensaje;
+      |         ^~~~~
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:18:14: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+   18 |         char error[] = "ERROR - ";
+      |              ^~~~~
+13:47:50 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+In file included from ..\src\Ejer 3 - 5.c:13:
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h: In function 'scanValInt':
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:19:15: error: assignment to expression with array type
+   19 |         error = "%s", mensaje;
+      |               ^
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:19:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   19 |         error = "%s", mensaje;
+      |                     ^
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:19:9: warning: statement with no effect [-Wunused-value]
+   19 |         error = "%s", mensaje;
+      |         ^~~~~
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:18:14: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+   18 |         char error[] = "ERROR - ";
+      |              ^~~~~
+13:48:37 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+In file included from ..\src\Ejer 3 - 5.c:13:
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h: In function 'scanValInt':
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:19:23: error: invalid operands to binary + (have 'char *' and 'char *')
+   19 |         error = error + mensaje;
+      |                 ~~~~~ ^
+      |                 |
+      |                 char *
+13:51:57 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:17:72: warning: passing argument 2 of 'scanValInt' makes pointer from integer without a cast [-Wint-conversion]
+   17 |         int numero = scanValInt("Ingrese un numero entero (5 - 10): ", 5, 10);
+      |                                                                        ^
+      |                                                                        |
+      |                                                                        int
+In file included from ..\src\Ejer 3 - 5.c:13:
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:5:37: note: expected 'char *' but argument is of type 'int'
+    5 | int scanValInt(char mensaje[], char error[], int min, int max) {
+      |                                ~~~~~^~~~~~~
+..\src\Ejer 3 - 5.c:17:22: error: too few arguments to function 'scanValInt'
+   17 |         int numero = scanValInt("Ingrese un numero entero (5 - 10): ", 5, 10);
+      |                      ^~~~~~~~~~
+C:\Users\Matt\proyectos - C UTN\Herramientas - Funciones\src\libreria.h:5:5: note: declared here
+    5 | int scanValInt(char mensaje[], char error[], int min, int max) {
+      |     ^~~~~~~~~~
+13:52:37 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+13:53:58 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+13:54:20 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+13:55:18 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ejer 3 - 5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:55:27 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+13:57:58 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+14:06:00 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+14:06:20 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+14:07:30 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:40:13: warning: unused variable 'num2' [-Wunused-variable]
+   40 |         int num2;
+      |             ^~~~
+..\src\Ejer 3 - 5.c:39:13: warning: unused variable 'num1' [-Wunused-variable]
+   39 |         int num1;
+      |             ^~~~
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+14:13:17 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:35:28: error: invalid use of void expression
+   35 |         printf("Suma: %i", Sumar3(2, 5));
+      |                            ^~~~~~~~~~~~
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:51:16: warning: implicit declaration of function 'scanInt'; did you mean 'scanValInt'? [-Wimplicit-function-declaration]
+   51 |         num1 = scanInt("Ingrese un numero entero: ");
+      |                ^~~~~~~
+      |                scanValInt
+..\src\Ejer 3 - 5.c: In function 'Sumar3':
+..\src\Ejer 3 - 5.c:58:9: error: too many arguments to function 'puts'
+   58 |         puts("Suma: %i", (num1 + num2));
+      |         ^~~~
+In file included from ..\src\Ejer 3 - 5.c:15:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:703:15: note: declared here
+  703 |   int __cdecl puts(const char *_Str);
+      |               ^~~~
+14:13:53 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:35:28: error: invalid use of void expression
+   35 |         printf("Suma: %i", Sumar3(2, 5));
+      |                            ^~~~~~~~~~~~
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:51:16: warning: implicit declaration of function 'scanInt'; did you mean 'scanValInt'? [-Wimplicit-function-declaration]
+   51 |         num1 = scanInt("Ingrese un numero entero: ");
+      |                ^~~~~~~
+      |                scanValInt
+14:13:55 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:35:28: error: invalid use of void expression
+   35 |         printf("Suma: %i", Sumar3(2, 5));
+      |                            ^~~~~~~~~~~~
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:51:16: warning: implicit declaration of function 'scanInt'; did you mean 'scanValInt'? [-Wimplicit-function-declaration]
+   51 |         num1 = scanInt("Ingrese un numero entero: ");
+      |                ^~~~~~~
+      |                scanValInt
+14:14:53 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:51:16: warning: implicit declaration of function 'scanInt'; did you mean 'scanValInt'? [-Wimplicit-function-declaration]
+   51 |         num1 = scanInt("Ingrese un numero entero: ");
+      |                ^~~~~~~
+      |                scanValInt
+..\src\Ejer 3 - 5.c: In function 'Sumar3':
+..\src\Ejer 3 - 5.c:58:9: error: too many arguments to function 'puts'
+   58 |         puts("Suma: %i", (num1 + num2));
+      |         ^~~~
+In file included from ..\src\Ejer 3 - 5.c:15:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:703:15: note: declared here
+  703 |   int __cdecl puts(const char *_Str);
+      |               ^~~~
+14:15:08 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:51:16: warning: implicit declaration of function 'scanInt'; did you mean 'scanValInt'? [-Wimplicit-function-declaration]
+   51 |         num1 = scanInt("Ingrese un numero entero: ");
+      |                ^~~~~~~
+      |                scanValInt
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+14:15:23 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:51:16: error: too few arguments to function 'scanInt'
+   51 |         num1 = scanInt("Ingrese un numero entero: ");
+      |                ^~~~~~~
+..\src\Ejer 3 - 5.c:19:5: note: declared here
+   19 | int scanInt(char[], char[], int, int);
+      |     ^~~~~~~
+..\src\Ejer 3 - 5.c:52:16: error: too few arguments to function 'scanInt'
+   52 |         num2 = scanInt("Ingrese otro numero entero: ");
+      |                ^~~~~~~
+..\src\Ejer 3 - 5.c:19:5: note: declared here
+   19 | int scanInt(char[], char[], int, int);
+      |     ^~~~~~~
+..\src\Ejer 3 - 5.c: At top level:
+..\src\Ejer 3 - 5.c:63:5: error: conflicting types for 'scanInt'; have 'int(char *)'
+   63 | int scanInt(char mensaje[]) {
+      |     ^~~~~~~
+..\src\Ejer 3 - 5.c:19:5: note: previous declaration of 'scanInt' with type 'int(char *, char *, int,  int)'
+   19 | int scanInt(char[], char[], int, int);
+      |     ^~~~~~~
+14:15:36 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:51:16: error: too few arguments to function 'scanInt'
+   51 |         num1 = scanInt("Ingrese un numero entero: ");
+      |                ^~~~~~~
+..\src\Ejer 3 - 5.c:19:5: note: declared here
+   19 | int scanInt(char[], int, int);
+      |     ^~~~~~~
+..\src\Ejer 3 - 5.c:52:16: error: too few arguments to function 'scanInt'
+   52 |         num2 = scanInt("Ingrese otro numero entero: ");
+      |                ^~~~~~~
+..\src\Ejer 3 - 5.c:19:5: note: declared here
+   19 | int scanInt(char[], int, int);
+      |     ^~~~~~~
+..\src\Ejer 3 - 5.c: At top level:
+..\src\Ejer 3 - 5.c:63:5: error: conflicting types for 'scanInt'; have 'int(char *)'
+   63 | int scanInt(char mensaje[]) {
+      |     ^~~~~~~
+..\src\Ejer 3 - 5.c:19:5: note: previous declaration of 'scanInt' with type 'int(char *, int,  int)'
+   19 | int scanInt(char[], int, int);
+      |     ^~~~~~~
+14:15:57 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+14:16:23 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:29:9: error: too many arguments to function 'puts'
+   29 |         puts("Suma: %i", Sumar1(2, 5));
+      |         ^~~~
+In file included from ..\src\Ejer 3 - 5.c:15:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:703:15: note: declared here
+  703 |   int __cdecl puts(const char *_Str);
+      |               ^~~~
+14:16:39 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ejer 3 - 5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:16:41 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+14:18:58 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5

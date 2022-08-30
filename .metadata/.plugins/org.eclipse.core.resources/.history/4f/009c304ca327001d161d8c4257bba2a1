@@ -1,0 +1,18 @@
+/*
+ ============================================================================
+ Name        : Ejer 3 - 2.c
+ Author      : Reta Mutte Matias | 1°C
+ Punto	     : Ejercicio 3-2
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+
+	return 0;
+}

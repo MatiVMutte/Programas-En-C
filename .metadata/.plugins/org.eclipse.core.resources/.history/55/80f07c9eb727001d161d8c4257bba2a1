@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : Herramientas.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "libreria.h"
+
+int scanValInt(char[], char[], int, int);
+char toUpperCase(char);
+char toLowerCase(char);
+
+int main(void) {
+	setbuf(stdout, NULL);
+	int numeroEntero = scanValInt("Ingrese un numero entero(1-10): ", "ERROR - Reingrese numero: ", 1, 10);
+	printf("%i", numeroEntero);
+
+	// char letra;
+	// letra = 'Q';
+	// letra = toLowerCase(letra);
+	// printf("%c", letra);
+}

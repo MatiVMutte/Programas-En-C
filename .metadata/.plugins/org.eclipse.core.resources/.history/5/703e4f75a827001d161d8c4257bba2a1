@@ -1,0 +1,16 @@
+/*
+ ============================================================================
+ Name        : Ejer 3 - 3.c
+ Author      : Reta Mutte Matias | 1°C
+ Punto	     : Ejercicio 3-3
+ Description : Crear una función que pida el ingreso de un entero y lo retorne.
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}

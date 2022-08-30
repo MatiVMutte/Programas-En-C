@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : Ejer 3 - 2.c
+ Author      : Reta Mutte Matias | 1°C
+ Punto	     : Ejercicio 3-2
+ Description : Crear una función que permita determinar si un número es par o no.
+ 	 	 	   La función retorna 1 en caso afirmativo y 0 en caso contrario.
+ 	 	 	   Probar en el main.
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int ParOImpar(int numIngresado);
+
+int main(void) {
+
+
+	return 0;
+}

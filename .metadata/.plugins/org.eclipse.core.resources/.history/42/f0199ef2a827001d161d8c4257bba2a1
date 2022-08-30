@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : Ejer 3 - 3.c
+ Author      : Reta Mutte Matias | 1°C
+ Punto	     : Ejercicio 3-3
+ Description : Crear una función que pida el ingreso de un entero y lo retorne.
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int pedirNumeroInt();
+
+int main(void) {
+	printf("HOLA");
+	printf("Numero entero: %i", pedirNumeroInt());
+
+	return 0;
+}
+
+int pedirNumeroInt() {
+	int numeroEntero;
+
+	printf("Ingrese un numero entero: ");
+	scanf("%i", &numeroEntero);
+
+	return numeroEntero;
+}

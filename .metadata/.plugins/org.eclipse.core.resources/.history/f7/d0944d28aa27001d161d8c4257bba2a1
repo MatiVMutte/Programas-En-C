@@ -1,0 +1,20 @@
+/*
+ ============================================================================
+ Name        : Ejer 3 - 3.c
+ Author      : Reta Mutte Matias | 1°C
+ Punto	     : Ejercicio 3-3
+ Description : Especializar la función anterior para que permita validar el entero ingresado
+ 	 	 	   en un rango determinado.
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(void) {
+
+
+	return 0;
+}

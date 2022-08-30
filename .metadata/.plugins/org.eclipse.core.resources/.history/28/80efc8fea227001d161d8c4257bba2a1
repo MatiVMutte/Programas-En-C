@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : acaElNombreDelProyecto.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void MostrarPorPantalla(float);
+int main(void) {
+	setbuf(stdout, NULL);
+	float numeroIngresado;
+
+	printf("Ingrese un numero: ");
+	scanf("%f", &numeroIngresado);
+
+	MostrarPorPantalla(numeroIngresado);
+}
+
+void MostrarPorPantalla(float numeroFlotante) {
+	printf("Numero flotante: %.2f", numeroFlotante);
+}
