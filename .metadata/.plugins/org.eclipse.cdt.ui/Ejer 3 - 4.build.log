@@ -1,1 +1,7 @@
-Info: Nothing to build for Ejer 3 - 4
+09:41:22 **** Rebuild of configuration Debug for project Ejer 3 - 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 4.o" "..\\src\\Ejer 3 - 4.c" 
+gcc -o "Ejer 3 - 4.exe" "src\\Ejer 3 - 4.o" 
+
+09:41:23 Build Finished. 0 errors, 0 warnings. (took 410ms)
+

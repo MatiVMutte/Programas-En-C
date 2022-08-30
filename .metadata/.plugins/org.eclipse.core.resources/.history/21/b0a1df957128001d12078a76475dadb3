@@ -1,0 +1,6 @@
+#include "operaciones.c"
+
+
+int scanValInt(char[], char[], int, int);
+char toUpperCase(char);
+char toLowerCase(char);

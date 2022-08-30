@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Herramientas - Funciones/src/libreria.h&apos; to &apos;prototipos.h&apos;" description="Rename resource &apos;libreria.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/libreria.h" name="prototipos.h" stamp="1661870029102" updateReferences="true"/>
+</session>

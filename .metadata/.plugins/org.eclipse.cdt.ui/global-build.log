@@ -304,3 +304,193 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
 gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
 Info: Nothing to build for Ejer 3 - 5
+09:38:19 **** Rebuild of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:20:9: warning: unused variable 'y' [-Wunused-variable]
+   20 |     int y;
+      |         ^
+..\src\Ejer 3 - 5.c:19:9: warning: unused variable 'x' [-Wunused-variable]
+   19 |     int x;
+      |         ^
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:88:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   88 |     int resultado;
+      |         ^~~~~~~~~
+..\src\Ejer 3 - 5.c:98:1: warning: control reaches end of non-void function [-Wreturn-type]
+   98 | }
+      | ^
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+09:38:51 **** Building Selected Files of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:20:9: warning: unused variable 'y' [-Wunused-variable]
+   20 |     int y;
+      |         ^
+..\src\Ejer 3 - 5.c:19:9: warning: unused variable 'x' [-Wunused-variable]
+   19 |     int x;
+      |         ^
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:88:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   88 |     int resultado;
+      |         ^~~~~~~~~
+..\src\Ejer 3 - 5.c:98:1: warning: control reaches end of non-void function [-Wreturn-type]
+   98 | }
+      | ^
+09:41:21 **** Rebuild of configuration Debug for project Ejer 3 - 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 1.o" "..\\src\\Ejer 3 - 1.c" 
+gcc -o "Ejer 3 - 1.exe" "src\\Ejer 3 - 1.o" 
+09:41:21 **** Rebuild of configuration Debug for project Ejer 3 - 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 2.o" "..\\src\\Ejer 3 - 2.c" 
+gcc -o "Ejer 3 - 2.exe" "src\\Ejer 3 - 2.o" 
+09:41:22 **** Rebuild of configuration Debug for project Ejer 3 - 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 3.o" "..\\src\\Ejer 3 - 3.c" 
+gcc -o "Ejer 3 - 3.exe" "src\\Ejer 3 - 3.o" 
+09:41:22 **** Rebuild of configuration Debug for project Ejer 3 - 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 4.o" "..\\src\\Ejer 3 - 4.c" 
+gcc -o "Ejer 3 - 4.exe" "src\\Ejer 3 - 4.o" 
+09:41:23 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:20:9: warning: unused variable 'y' [-Wunused-variable]
+   20 |     int y;
+      |         ^
+..\src\Ejer 3 - 5.c:19:9: warning: unused variable 'x' [-Wunused-variable]
+   19 |     int x;
+      |         ^
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:97:9: warning: unused variable 'a' [-Wunused-variable]
+   97 |     int a = resultado + 100;
+      |         ^
+..\src\Ejer 3 - 5.c:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+   99 | }
+      | ^
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ejer 3 - 5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Herramientas - Funciones
+09:41:25 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ejer 3 - 5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:42:04 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+Info: Nothing to build for Ejer 3 - 5
+09:43:01 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:20:9: warning: unused variable 'y' [-Wunused-variable]
+   20 |     int y;
+      |         ^
+..\src\Ejer 3 - 5.c:19:9: warning: unused variable 'x' [-Wunused-variable]
+   19 |     int x;
+      |         ^
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:88:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   88 |     int resultado;
+      |         ^~~~~~~~~
+..\src\Ejer 3 - 5.c:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+   99 | }
+      | ^
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ejer 3 - 5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:43:07 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+09:43:33 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:21:9: warning: unused variable 'y' [-Wunused-variable]
+   21 |     int y;
+      |         ^
+..\src\Ejer 3 - 5.c:20:9: warning: unused variable 'x' [-Wunused-variable]
+   20 |     int x;
+      |         ^
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:89:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   89 |     int resultado;
+      |         ^~~~~~~~~
+..\src\Ejer 3 - 5.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+  100 | }
+      | ^
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ejer 3 - 5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:43:37 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+09:43:51 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:21:9: warning: unused variable 'y' [-Wunused-variable]
+   21 |     int y;
+      |         ^
+..\src\Ejer 3 - 5.c:20:9: warning: unused variable 'x' [-Wunused-variable]
+   20 |     int x;
+      |         ^
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:98:9: warning: unused variable 'a' [-Wunused-variable]
+   98 |     int a = resultado + 100;
+      |         ^
+..\src\Ejer 3 - 5.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+  100 | }
+      | ^
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ejer 3 - 5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:43:57 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+09:44:35 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+..\src\Ejer 3 - 5.c: In function 'main':
+..\src\Ejer 3 - 5.c:21:9: warning: unused variable 'y' [-Wunused-variable]
+   21 |     int y;
+      |         ^
+..\src\Ejer 3 - 5.c:20:9: warning: unused variable 'x' [-Wunused-variable]
+   20 |     int x;
+      |         ^
+..\src\Ejer 3 - 5.c: In function 'Sumar2':
+..\src\Ejer 3 - 5.c:98:11: warning: unused variable 'a' [-Wunused-variable]
+   98 |     float a = resultado * 0;
+      |           ^
+..\src\Ejer 3 - 5.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+  100 | }
+      | ^
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+11:31:56 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+Info: Nothing to build for Ejer 3 - 5
+11:32:09 **** Building Selected Files of configuration Debug for project Ejer 3 - 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 1.o" "..\\src\\Ejer 3 - 1.c" 
+Info: Nothing to build for Ejer 3 - 5
+11:32:22 **** Incremental Build of configuration Debug for project Ejer 3 - 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 1.o" "..\\src\\Ejer 3 - 1.c" 
+gcc -o "Ejer 3 - 1.exe" "src\\Ejer 3 - 1.o" 

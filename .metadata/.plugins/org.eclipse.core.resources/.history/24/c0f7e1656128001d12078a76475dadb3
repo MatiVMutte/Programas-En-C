@@ -1,0 +1,109 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+
+void Sumar4(void);
+void Sumar3(int,int);
+int Sumar2(void);
+
+
+
+int main()
+{
+	setbuf(stdout, NULL);
+    int x;
+    int y;
+    int suma;
+
+   /* x = 10;
+    y = 8;
+    //Sumar4();
+    Sumar3(4,6);
+
+    printf("Ingrese un numero: ");
+    scanf("%d", &x);
+    printf("Ingrese otro numero: ");
+    scanf("%d", &y);
+
+
+    Sumar3(x,y);*/
+
+    suma = 0;
+    suma  = Sumar2();
+
+    suma += Sumar2();
+
+    printf("El resultado de la suma acumulada es: %d", suma);
+    return 0;
+}
+
+void Sumar4(void)/*E-P-S*/
+{
+
+    int unNumero;
+    int otroNumero;
+    int resultado;
+
+    printf("Ingrese un numero: ");
+    scanf("%d", &unNumero);
+    printf("Ingrese otro numero: ");
+    scanf("%d", &otroNumero);
+
+    resultado = unNumero + otroNumero;
+
+    printf("El resultado de la suma es: %d", resultado);
+}
+
+/*
+Hace algo acotado x
+Depuracion x
+Reutilizacion ok +-
+Independencia x
+*/
+
+void Sumar3(int unNumero,int otroNumero)/*P-S*/
+{
+    int resultado;
+
+    resultado = unNumero + otroNumero;
+
+    printf("El resultado de la suma es: %d\n", resultado);
+}
+/*
+Hace algo acotado +-
+Depuracion +-
+Reutilizacion  +-
+Independencia +-
+*/
+
+int Sumar2(void)/*E-P*/
+{
+    int unNumero;
+    int otroNumero;
+    int resultado;
+
+    printf("Ingrese un numero: ");
+    scanf("%d", &unNumero);
+    printf("Ingrese otro numero: ");
+    scanf("%d", &otroNumero);
+
+    resultado = unNumero + otroNumero;
+
+    //int a = resultado + 100;
+    //return resultado;
+}
+/*
+Hace algo acotado
+Depuracion
+Reutilizacion
+Independencia
+*/
+
+
+

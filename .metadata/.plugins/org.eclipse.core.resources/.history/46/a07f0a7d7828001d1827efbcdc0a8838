@@ -1,0 +1,24 @@
+#include "operaciones.c"
+/**
+ * @brief
+ *
+ * @param
+ * @param
+ * @param
+ * @param
+ * @return
+ */
+int scanValInt(char[], char[], int, int);
+
+char toUpperCase(char);
+char toLowerCase(char);
+
+/**
+ * @brief
+ *
+ * @param
+ * @param
+ * @param
+ * @return
+ */
+int Dividir(int, int, float*);
