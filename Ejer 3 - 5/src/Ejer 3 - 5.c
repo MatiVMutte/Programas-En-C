@@ -13,7 +13,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "..\..\Herramientas - Funciones\src\prototipos.h" // Importe las Funciones Mias
+//#include "..\..\Herramientas - Funciones\src\prototipos.h" // Importe las Funciones Mias
 
 int scanInt(char[]);
 int Sumar1(int, int);

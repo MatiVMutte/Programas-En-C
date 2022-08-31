@@ -13,6 +13,14 @@ int scanValInt(char mensaje[], char error[], int min, int max) {
 	return numeroIngresado;
 }
 
+int scanInt(char mensaje[]) {
+	int numero;
+	printf(mensaje);
+	scanf("%i", &numero);
+
+	return numero;
+}
+
 
 char toUpperCase(char letra) {
 	if(letra > 96 && letra < 123) {
@@ -40,4 +48,17 @@ int Dividir(int dividendo, int divisor, float* resultado) {
 	}
 
 	return estado;
+}
+
+int Factorial(int num) {
+	int fact = 1;
+	if(num >= 0) {
+		for(int i = 1; i <= num; i++) {
+			fact = fact * i;
+		}
+	} else {
+		fact = 0;
+	}
+
+	return fact;
 }

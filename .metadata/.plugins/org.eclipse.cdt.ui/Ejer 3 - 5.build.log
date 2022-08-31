@@ -1,1 +1,7 @@
-Info: Nothing to build for Ejer 3 - 5
+14:32:42 **** Incremental Build of configuration Debug for project Ejer 3 - 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 3 - 5.o" "..\\src\\Ejer 3 - 5.c" 
+gcc -o "Ejer 3 - 5.exe" "src\\Ejer 3 - 5.o" 
+
+14:32:43 Build Finished. 0 errors, 0 warnings. (took 458ms)
+

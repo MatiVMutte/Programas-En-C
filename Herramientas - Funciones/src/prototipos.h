@@ -10,6 +10,8 @@
  */
 int scanValInt(char[], char[], int, int);
 
+int scanInt(char[]);
+
 /**
  * \brief
  * \param
@@ -32,3 +34,10 @@ char toLowerCase(char);
  * \return
  */
 int Dividir(int, int, float*);
+
+/**
+ * \brief
+ * \param
+ * \return
+ */
+int Factorial(int);
