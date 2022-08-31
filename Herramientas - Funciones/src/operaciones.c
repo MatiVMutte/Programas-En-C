@@ -1,6 +1,6 @@
-/*=================================
-		FUNCIONES PROPIAS
- ==================================*/
+/*==============================================
+ *		FUNCIONES PROPIAS DESARROLLADAS         *
+ ===============================================*/
 int scanValInt(char mensaje[], char error[], int min, int max) {
 	int numeroIngresado;
 	printf(mensaje);

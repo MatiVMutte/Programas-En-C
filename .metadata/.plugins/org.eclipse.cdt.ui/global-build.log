@@ -25,3 +25,8 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 4 - 1.o" "..\\src\\Ejer 4 - 1.c" 
 gcc -o "Ejer 4 - 1.exe" "src\\Ejer 4 - 1.o" 
 Info: Nothing to build for Ejer 4 - 1
+Info: Nothing to build for Ejer 4 - 1
+Info: Nothing to build for Ejer 4 - 1
+Info: Nothing to build for Ejer 4 - 1
+Info: Nothing to build for Ejer 4 - 1
+Info: Nothing to build for Ejer 4 - 1

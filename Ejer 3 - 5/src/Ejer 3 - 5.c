@@ -2,7 +2,7 @@
  ==============================================================================
  Name        : Ejer 3 - 5.c
  Author      : Reta Mutte Matias | 1°C
- Punto	     : Ejercicio 3-5
+ Punto	     : Ejercicio 3 - 5
  Description : Realizar un programa en donde se puedan utilizar los prototipos de la función Sumar en sus 4 combinaciones.
 				int Sumar1(int, int);
 				int Sumar2(void);
