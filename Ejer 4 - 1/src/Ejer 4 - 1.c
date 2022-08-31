@@ -1,12 +1,11 @@
 /*
- ============================================================================
- Name        : Ejer.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
+ ==========================================================================================================
+ Name        : Ejer 4 - 1.c
+ Author      : Reta Mutte Matias - DIV C
+ Punto     	 : Ejercicio 4-1
  Description : Realizar un programa EN EL MAIN que permita calcular y mostrar el factorial de un número.
  	 	 	   Utilizar la función PedirNumero de la ejercitación 3-4.
- ============================================================================
+ ===========================================================================================================
  */
 
 #include <stdio.h>
