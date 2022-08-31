@@ -14,20 +14,21 @@
 #include "..\..\Herramientas - Funciones\src\prototipos.h"
 
 int main(void) {
+	setbuf(stdout, NULL);
 	int numero;
 	int fact;
 	do {
-		numero = scanInt("Ingrese un numero natural: (>= 0)");
+		numero = scanInt("Ingrese un numero natural (>= 0): ");
 
 		fact = Factorial(numero);
 
-		if(fact < 0) {
-			printf("El Factorial no se pudo dar. Pudo haber ingresado un numero negativo. (Y se pide un numero >= 0)");
+		if(fact == 0) {
+			puts("El Factorial no se pudo dar. Pudo haber ingresado un numero negativo. (Y se pide un numero >= 0)");
+		} else {
+			printf("El factorial de %i es: %i", numero, fact);
 		}
 
-	}while(fact < 0);
-
-	printf("El factorial de %i es: %i", numero, fact);
+	}while(fact == 0);
 
 	return 0;
 }
