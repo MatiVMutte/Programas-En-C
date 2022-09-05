@@ -1,32 +1,7 @@
-Info: Nothing to build for Ejer 4 - 1
-Info: Nothing to build for Ejer 4 - 1
-Info: Nothing to build for Ejer 4 - 1
-Info: Nothing to build for Ejer 4 - 1
-14:41:25 **** Incremental Build of configuration Debug for project Ejer 4 - 1 ****
+11:44:38 **** Incremental Build of configuration Debug for project Ejer 4 - 1 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 4 - 1.o" "..\\src\\Ejer 4 - 1.c" 
 gcc -o "Ejer 4 - 1.exe" "src\\Ejer 4 - 1.o" 
-Info: Nothing to build for Ejer 4 - 1
-Info: Nothing to build for Ejer 4 - 1
-Info: Nothing to build for Ejer 4 - 1
-14:42:55 **** Incremental Build of configuration Debug for project Ejer 4 - 1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 4 - 1.o" "..\\src\\Ejer 4 - 1.c" 
-gcc -o "Ejer 4 - 1.exe" "src\\Ejer 4 - 1.o" 
-Info: Nothing to build for Ejer 4 - 1
-Info: Nothing to build for Ejer 4 - 1
-14:43:14 **** Incremental Build of configuration Debug for project Ejer 4 - 1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 4 - 1.o" "..\\src\\Ejer 4 - 1.c" 
-gcc -o "Ejer 4 - 1.exe" "src\\Ejer 4 - 1.o" 
-Info: Nothing to build for Ejer 4 - 1
-14:43:39 **** Incremental Build of configuration Debug for project Ejer 4 - 1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejer 4 - 1.o" "..\\src\\Ejer 4 - 1.c" 
-gcc -o "Ejer 4 - 1.exe" "src\\Ejer 4 - 1.o" 
-Info: Nothing to build for Ejer 4 - 1
-Info: Nothing to build for Ejer 4 - 1
-Info: Nothing to build for Ejer 4 - 1
 Info: Nothing to build for Ejer 4 - 1
 Info: Nothing to build for Ejer 4 - 1
 Info: Nothing to build for Ejer 4 - 1

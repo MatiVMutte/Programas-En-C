@@ -14,11 +14,25 @@
 int scanValInt(char[], char[], int, int);
 
 /**
- * \brief --> Funcion que pide por consola un valor entero
+ * \brief --> Funcion que pide por consola un valor ENTERO
  * \param Mensaje para mostrar por pantalla a pedir
- * \return Retorna el entero pedido por SCANF
+ * \return Retorna el ENTERO pedido por SCANF
  */
 int scanInt(char[]);
+
+/**
+ * \brief --> Funcion que pide por consola un valor FLOTANTE
+ * \param Mensaje para mostrar por pantalla a pedir
+ * \return Retorna el FLOTANTE pedido por SCANF
+ */
+float scanFloat(char[]);
+
+/**
+ * \brief --> Funcion que pide por consola un valor CARACTER
+ * \param Mensaje para mostrar por pantalla a pedir
+ * \return Retorna el CARACTER pedido por SCANF
+ */
+char scanChar(char[]);
 
 /**
  * \brief --> Funcion que convierte una letra MINUSCULA a MAYUSCULA

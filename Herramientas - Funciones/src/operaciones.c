@@ -1,17 +1,7 @@
 /*==============================================
  *		FUNCIONES PROPIAS DESARROLLADAS         *
  ===============================================*/
-int scanValInt(char mensaje[], char error[], int min, int max) {
-	int numeroIngresado;
-	printf(mensaje);
-	scanf("%i", &numeroIngresado);
-	while(numeroIngresado < min || numeroIngresado > max) {
-		printf(error);
-		scanf("%i", &numeroIngresado);
-	}
-
-	return numeroIngresado;
-}
+#include <stdio.h>
 
 int scanInt(char mensaje[]) {
 	int numero;
@@ -21,6 +11,32 @@ int scanInt(char mensaje[]) {
 	return numero;
 }
 
+float scanFloat(char mensaje[]) {
+	float numero;
+	printf(mensaje);
+	scanf("%f", &numero);
+
+	return numero;
+}
+
+char scanChar(char mensaje[]) {
+	char caracter;
+	printf(mensaje);
+	fflush(stdin);
+	scanf("%c", &caracter);
+
+	return caracter;
+}
+
+int scanValInt(char mensaje[], char error[], int min, int max) {
+	int numeroIngresado;
+	numeroIngresado = scanInt(mensaje);
+	while(numeroIngresado < min || numeroIngresado > max) {
+		numeroIngresado = scanInt(error);
+	}
+
+	return numeroIngresado;
+}
 
 char toUpperCase(char letra) {
 	if(letra > 96 && letra < 123) {
@@ -38,7 +54,6 @@ char toLowerCase(char letra) {
 
 int Dividir(int dividendo, int divisor, float* resultado) {
 	int estado;
-	// float division;
 
 	if(divisor != 0) {
 		*resultado = (float) dividendo / divisor;

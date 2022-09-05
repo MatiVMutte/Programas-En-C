@@ -10,10 +10,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 #include "..\..\Herramientas - Funciones\src\prototipos.h"
 
 int main(void) {
 	setbuf(stdout, NULL);
+
 	int numero;
 	int fact;
 	do {
